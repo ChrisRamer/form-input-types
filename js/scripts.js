@@ -22,5 +22,13 @@ $(document).ready(function () {
 		const dob = $("#born").val();
 		alert("Your birthday is: " + dob + "!");
 	});
+	
+	// Color
+	$("form#colorForm").submit(function (e) { 
+		e.preventDefault();
+		
+		const color = $("#color").val();
+		alert("Your favorite color is: " + color + "!");
+	});
 
 });
